@@ -1,2 +1,0 @@
-C:\Users\Admin\source\repos\TestWebTool\bin\Release\netcoreapp3.1\publish\TestWebTool.pdb
-C:\Users\Admin\source\repos\TestWebTool\bin\Release\netcoreapp3.1\publish\TestWebTool.exe

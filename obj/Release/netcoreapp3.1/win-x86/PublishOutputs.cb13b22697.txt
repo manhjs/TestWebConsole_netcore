@@ -1,2 +1,0 @@
-C:\Users\Admin\source\repos\TestWebTool\bin\Publish\TestWebTool.pdb
-C:\Users\Admin\source\repos\TestWebTool\bin\Publish\TestWebTool.exe

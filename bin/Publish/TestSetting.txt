@@ -14,7 +14,7 @@ WaitForAlert == 10000
 
 // ----------------------------------------IE---------------------------------------
 [IEFilePaths]
-testdata/all/ds.txt
+testdata/all/LoginFacebook.txt
 testdata/ie
 
 [IE]
@@ -32,7 +32,7 @@ FilePaths == ChromeFilePaths
 
 // ------------------------------------ FIREFOX -------------------------------------
 [FirefoxFilePaths]
-testdata/all/ds.txt
+testdata/all/LoginFacebook.txt
 testdata/firefox
 
 [FIREFOX]

@@ -1,0 +1,15 @@
+﻿----------------[D:/GIT/TestWebConsole_netcore/bin/Publish/testdata/all/LoginFacebook.txt | testcase1]----------------
+[CMD/FRAME] : RELOAD, [ITEM] : fbURL, [X/SET VALUE] : null, [Y/EXPECTED VALUE] : null
+[CMD/FRAME] : wait, [ITEM] : null, [X/SET VALUE] : 1000, [Y/EXPECTED VALUE] : null
+[CMD/FRAME] : null, [ITEM] : LoginId, [X/SET VALUE] : nguyen_dinh_manh_bk@yahoo.com, [Y/EXPECTED VALUE] : null
+[CMD/FRAME] : wait, [ITEM] : null, [X/SET VALUE] : 1000, [Y/EXPECTED VALUE] : null
+[CMD/FRAME] : null, [ITEM] : LoginPass, [X/SET VALUE] : seta19712, [Y/EXPECTED VALUE] : null
+[CMD/FRAME] : wait, [ITEM] : null, [X/SET VALUE] : 1000, [Y/EXPECTED VALUE] : null
+[CMD/FRAME] : null, [ITEM] : LoginButton, [X/SET VALUE] : null, [Y/EXPECTED VALUE] : null
+<ERROR> NOT FOUND ELEMENT : input[data-testid="royal_login_button"][type="submit"] |
+
+-------------------------------------------------SUMMARY-------------------------------------------------
+<ERROR> testcase1 : NOT FOUND ELEMENT : input[data-testid="royal_login_button"][type="submit"] |
+
+TEST FILE [D:\GIT\TestWebConsole_netcore\bin\Publish\testdata/all/LoginFacebook.txt] FAILED in CHROME!
+
