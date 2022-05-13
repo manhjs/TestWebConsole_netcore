@@ -131,6 +131,7 @@ namespace drivers
                 Reporter.SaveLog("<ERROR> " + e.Message);
                 EndTestWithError();
             }
+            //Console.ReadKey();
         }
         private static void EndTestWithError()
         {
@@ -138,11 +139,13 @@ namespace drivers
             Reporter.EndBrowserReport();
             Reporter.EndTestReport();
             TestCaseExecution.TearDown();
+            Console.ReadKey();
         }
 
         private static void EndTest()
         {
             TestCaseExecution.TearDown();
+            Console.ReadKey();
         }
 
         private static void SetLanguage(String filePath, String classPath)
