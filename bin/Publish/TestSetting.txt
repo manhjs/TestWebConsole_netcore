@@ -1,0 +1,57 @@
+[SETTING]
+// Language
+Language == English
+// Input data encoding
+TestDataEncode == UTF-8
+// Each step waiting (ms)
+EachStepDelay == 1000
+// Show red mouse
+ShowMouse == YES
+// Stop when error
+StopErrorFile == YES
+// Alert waiting (ms)
+WaitForAlert == 10000
+
+// ----------------------------------------IE---------------------------------------
+[IEFilePaths]
+testdata/all/ds.txt
+testdata/ie
+
+[IE]
+ClassName == OpenQA.Selenium.IE.InternetExplorerDriver
+FilePaths == IEFilePaths
+
+// ------------------------------------ CHROME -------------------------------------
+[ChromeFilePaths]
+testdata/all/LoginFacebook.txt
+//testdata/chrome
+
+[CHROME]
+ClassName == OpenQA.Selenium.Chrome.ChromeDriver
+FilePaths == ChromeFilePaths
+
+// ------------------------------------ FIREFOX -------------------------------------
+[FirefoxFilePaths]
+testdata/all/ds.txt
+testdata/firefox
+
+[FIREFOX]
+ClassName == OpenQA.Selenium.Firefox.FirefoxDriver
+FilePaths == FirefoxFilePaths
+
+// -------------------------------------EDGE ----------------------------------------
+[EdgeFilePaths]
+testdata/all/LoginFacebook.txt
+//testdata/edge
+
+[EDGE]
+ClassName == OpenQA.Selenium.Edge.EdgeDriver
+FilePaths == EdgeFilePaths
+
+[BROWSERS]
+//IE
+CHROME
+//FIREFOX
+//EDGE
+
+[END]

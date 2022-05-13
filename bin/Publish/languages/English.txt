@@ -1,0 +1,10 @@
+﻿[SETTING]
+// Report
+ReportTitle == Result
+AssertOK ==  is matched to the expected value
+AssertNG ==  is not matched to the expected value
+EndTestMessage == Finished execution
+FileHeader == Index, Testcase, Result, Message, Comment, Evidence
+SummaryHeader == No., File Name, Total, Mistake, OK, NG, Remain
+
+[END]

@@ -1,0 +1,10 @@
+﻿[SETTING]
+// Report
+ReportTitle == 試験結果
+AssertOK == は、期待値と一致する。
+AssertNG == は、期待値と一致しません。
+EndTestMessage == 正常に終了した。
+FileHeader == 番号, テストケース, 結果, メッセージ, コメント, エビデンス
+SummaryHeader == No., ファイル名, 合計, 不正, 合格, 不合格, 残件
+
+[END]

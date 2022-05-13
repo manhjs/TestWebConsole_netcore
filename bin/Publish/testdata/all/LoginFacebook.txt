@@ -1,0 +1,39 @@
+// 1. FRAME, 2. HTML item, 3. value, 4. expected value, 5. action
+// Setting Value (Value != null, Expected value = null)
+// Assert Value (Value = null, Expected value != nulls)
+// Select Item (default is click) (Value = null, Expected value = null)
+// Coordinate (x, y) (Value != null, Expected value != null) 
+
+[LOCATORS]
+LoginId == //*[@id="email"]
+LoginPass == //*[@id="pass"]
+LoginButton == input[data-testid="royal_login_button"][type="submit"] |
+fbURL == https://www.facebook.com
+
+[login_block]
+RELOAD, fbURL, null, null
+wait, null, 1000 , null
+null, LoginId, nguyen_dinh_manh_bk@yahoo.com, null
+wait, null, 1000 , null
+null, LoginPass, seta19712, null
+wait, null, 1000 , null
+null, LoginButton, null, null
+wait, null, 1000 , null
+KEY, null, RETURN, null
+
+[displayConsole]
+wait, null, 1000, null
+KEY, null, VK_F12->CONTROL;VK_2, null
+wait, null, 1000, null
+
+[testcase1]
+login_block
+
+displayConsole
+
+wait, null, 10000, null
+
+[COMMANDS]
+testcase1
+
+[END]
